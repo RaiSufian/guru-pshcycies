@@ -1,0 +1,60 @@
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    width: 180px;
+    height: 65px;
+}
+.navbar-light .navbar-brand img{
+    width: 100%;
+    height: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'TT Norms', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.navbar-light .mx-auto .nav-link{
+    color: #191919 !important;
+} 
+@media screen and (max-width:1120px){
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0px 5px;
+    }
+}
+@media screen and (max-width:1024px){
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0px 0px;
+    }
+}
+.nav-logins .nav-link{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.rejister-link{
+    background-color: #FF003B;
+    color: white !important;
+    border: 5px solid #FF003B;
+    transition: 0.4s;
+}
+.rejister-link:hover{
+    background-color: White;
+    border: 2px solid #FF003B;
+    color: #FF003B !important;
+}
+.login-link{
+    background-color:#FFE9EE;
+    color: #FF003B !important;
+    border: 2px solid #FFE9EE;
+    transition: 0.3s;
+}
+.login-link:hover{
+    background-color:white;
+    color: #FF003B!important;
+    border: 2px solid #FF003B;
+}
